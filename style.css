@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Mono', monospace;
+}
+
+body{
+    background: url(./assets/img/cyberpunk-urban-scenery.jpg) center center/ cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -20px;
+    justify-content: space-between;
+}
+.glass{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    background: rgba(9, 24, 51, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(234, 0, 217, 0.80);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(10,189,198,0.32);
+    height: 50%;
+    padding: 4%;
+    border-radius: 10px;
+}
+.glass h1{
+    color: #ea00d9;
+    text-align: center;
+    text-shadow: 4px 1px 4px rgba(10,189,198,1);
+}
+.glass p{
+    color: #ea00d9;
+    text-align: center;
+    text-shadow: 4px 1px 4px rgba(10,189,198,1)
+}
+.glass h2{
+    color: #ea00d9;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(10,189,198,1);
+}
+span{
+    font-size: 3vh;
+}
+footer{
+    background-color: #202020bd;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    color: #0abdc6;
+    font-size: 2vh;
+}
+footer a{
+    color: #ea00d9;
+    font-size: 2vh;
+}
+
+.reloj{
+    display: flex;
+}
+h1{
+    font-size: 3vh;
+}
+h2{
+    font-size: 8vh;
+}
+p{
+    font-size: 2.5vh;
+}
+
+.hidden{
+    display: none;
+}
+.btn{
+    display: block;
+    width: 50%;
+    height: 13%;
+    border: none;
+    border-radius: 8px;
+    font-size: 2vh;
+    font-weight: bold;
+    color: #ea00d9;
+    background-color: #0abcc696;
+    min-width: 65px;
+    min-height: 34px;
+}
+
+.rate{
+    width: 25%;
+    height: 5%;
+    background: rgba(10, 189, 198, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    min-width: 65px;
+    min-height: 34px;
+    text-align: center;
+}
+
+.rate a{
+    font-size: 1.8vh;
+    color: #ea00d9;
+    text-decoration: none;
+}
